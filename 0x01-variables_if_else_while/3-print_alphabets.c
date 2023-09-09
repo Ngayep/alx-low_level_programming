@@ -10,11 +10,15 @@ int main(void)
 	char letter = 'a';
 	char Uletter = 'A';
 
-	while (letter <= 'z' && Uletter <= 'Z')
+	while (letter <= 'z')
 	{
 		putchar(letter);
-		putchar(Uletter);
 		letter++;
+	}
+	while (Uletter <= 'Z')
+	{
+		putchar(Uletter);
+		Uletter++;
 	}
 	putchar('\n');
 	return (0);
