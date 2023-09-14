@@ -9,3 +9,4 @@ more functions and nested loops file
 7printdiagonal is a function that prints a diagonal line
 8printsquare is a function that prints a square
 9fizzbuzz is a program that prints fizzbuzz in special cases
+10printtriangle is a function that prints a triangle
