@@ -7,3 +7,4 @@ more functions and nested loops file
 5morenumbers is a file that contains a function that prints some numbers 10 times
 6printline contains a function that prints a straight line
 7printdiagonal is a function that prints a diagonal line
+8printsquare is a function that prints a square
