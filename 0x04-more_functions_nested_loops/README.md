@@ -8,3 +8,4 @@ more functions and nested loops file
 6printline contains a function that prints a straight line
 7printdiagonal is a function that prints a diagonal line
 8printsquare is a function that prints a square
+9fizzbuzz is a program that prints fizzbuzz in special cases
