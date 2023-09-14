@@ -5,3 +5,4 @@ more functions and nested loops file
 3printnumbers is a file containing a function that prints numbers from 0 to 9
 4printmostnumbers is a file containing a function that prints the numbers, from 0 to 9
 5morenumbers is a file that contains a function that prints some numbers 10 times
+6printline contains a function that prints a straight line
