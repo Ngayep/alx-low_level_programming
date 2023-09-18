@@ -3,4 +3,5 @@ this is to describe the files in this directory
 1-swap.c is a function that swaps the value of two integers
 2-strlen.c is a function that returns the lenght of a string
 3-puts.c is a function that prints a string followed by a new line
+4-printrev.c is a function that prints a string in reverse followed by a new line
 
