@@ -7,7 +7,7 @@
  * @str: string to be printed
  */
 
-void puts2(char *str);
+void puts2(char *str)
 {
 	int n;
 	int i;
@@ -16,8 +16,6 @@ void puts2(char *str);
 	{
 		n++;
 	}
-
-	n--;
 
 	for (i = 0; i < n; i += 2)
 	{
