@@ -8,3 +8,4 @@ this is to describe the files in this directory
 6-puts2.c is a function that prints every other character of a string starting with the first character followed by a new line.
 7-putshalf is a function that prints half of a string, followed by a new line
 8-printarray is a function that prints n elements o an array of integers
+9-strcpy is a function that copies the string pointed to by src
