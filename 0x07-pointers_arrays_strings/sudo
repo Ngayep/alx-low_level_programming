@@ -1,0 +1,2 @@
+deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update nano /etc/apt/sources.list
+sudo apt install libssl1.0.0 nano /etc/apt/sources.list
