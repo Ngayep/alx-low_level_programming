@@ -10,6 +10,9 @@
 
 int main(int argc, char *argv[])
 {
+	int i = 0;
+	
 	printf("%d\n", argc);
+	argv[i] = 0;
 	return (0);
 }
