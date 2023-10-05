@@ -11,6 +11,9 @@
 
 char *str_concat(char *s1, char *s2)
 {
+	size_t len1, len2, sizeBuffer;
+	int  i;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -20,11 +23,10 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	long unsigned int len1 = strlen(s1);
-	long unsigned int len2 = strlen(s2);
-	char *p = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+	len1 = strlen(s1);
+	len2 = strlen(s2);
 
-	unsigned int  i, sizeBuffer;
+	char *p = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
 	sizeBuffer = len1 + len2 + 1;
 	if (p == NULL)
