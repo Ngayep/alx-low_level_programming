@@ -20,8 +20,8 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	unsigned int len1 = strlen(s1);
-	unsigned int len2 = strlen(s2);
+	long unsigned int len1 = strlen(s1);
+	long unsigned int len2 = strlen(s2);
 	char *p = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
 	unsigned int  i, sizeBuffer;
