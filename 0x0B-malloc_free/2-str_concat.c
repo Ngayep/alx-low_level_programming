@@ -20,11 +20,11 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	size_t len1 = strlen(s1);
-	size_t len2 = strlen(s2);
+	unsigned int len1 = strlen(s1);
+	unsigned int len2 = strlen(s2);
 	char *p = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
-	int  i, sizeBuffer;
+	unsigned int  i, sizeBuffer;
 
 	sizeBuffer = len1 + len2 + 1;
 	if (p == NULL)
