@@ -1,6 +1,4 @@
-CC := gcc
-SRC := $(school.c)
+#a basic Makefile
 
-all:
-
-
+all: school.c main.c
+	gcc -Wall -Werror -Wextra -pedantic school.c main.c -o school
